@@ -13,7 +13,7 @@
             <li class="active">
                 <a href="#">Home</a>
             </li>
-            <li><a href="#">Profile</a></li>
+            <li><a href="#">Promo</a></li>
             <li><a href="#">News</a></li>
             <li><a href="#">Signin</a></li>
         </ul>
