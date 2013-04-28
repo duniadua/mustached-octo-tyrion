@@ -7,6 +7,7 @@ echo doctype('html5')."\n";
 
 $meta = array(
     array('name' => 'robots', 'content' => 'no-cache'),
+    array('name' => 'viewport', 'content' => 'width=device-width, initial-scale=1.0'),
     array('name' => 'description', 'content' => 'K-Link Member'),
     array('name' => 'keywords', 'content' => 'Welcome to K-Link Member'),
     array('name' => 'robots', 'content' => 'no-cache'),
