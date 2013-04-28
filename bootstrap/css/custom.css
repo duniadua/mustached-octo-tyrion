@@ -12,7 +12,8 @@ root {
 
 .footer{
     padding: 5px 0px 0px 10px;
-    background-color: #8B9900;
+    /*background-color: #8B9900;*/
+    background-color: #535D5F;
     color: #ffffff;
 }
 .line{
