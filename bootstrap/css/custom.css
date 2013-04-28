@@ -1,0 +1,25 @@
+/* 
+    Document   : custom
+    Created on : Apr 28, 2013, 6:50:07 AM
+    Author     : sahid
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+.footer{
+    padding: 5px 0px 0px 10px;
+    background-color: #8B9900;
+    color: #ffffff;
+}
+.line{
+    height: 2px;
+    background-color:#8B9900;
+}
+.skyline{
+    padding-bottom: 20px;
+}
+
