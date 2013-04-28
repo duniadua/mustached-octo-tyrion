@@ -11,10 +11,10 @@
         <div class="span11">
             <ul class="nav nav-tabs">
             <li class="active">
-                <a href="#">Home</a>
+                <a href="<?php echo site_url('/home')?>"> Home</a>
             </li>
-            <li><a href="#">Promo</a></li>
-            <li><a href="#">News</a></li>
+            <li><a href="<?php echo site_url('/promo')?>"> Promo</a></li>
+            <li><a href="<?php echo site_url('/news')?>"> News</a></li>
             <li><a href="#">Signin</a></li>
         </ul>
         </div>
