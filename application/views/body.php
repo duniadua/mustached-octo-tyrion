@@ -20,12 +20,13 @@
                         <img src="<?php echo base_url(); ?>images/portfolio/porto_klink_new.jpg" alt="">                    
                     </div>
                 </div>
-                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>
+<!--                <a class="left carousel-control" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">&rsaquo;</a>-->
 
             </div>
         </div>
         <div class="span4">
+            <h4>News Updates</h4>
             <dl>
                 <dt>Description lists</dt>
                 <dd>A description list is perfect for defining terms.</dd>
