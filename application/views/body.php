@@ -26,7 +26,7 @@
             </div>
         </div>
         <div class="span4">
-            <h4>News Updates</h4>
+            <h4 class="underline">NEWS UPDATE</h4>
             <dl>
                 <dt>Description lists</dt>
                 <dd>A description list is perfect for defining terms.</dd>
