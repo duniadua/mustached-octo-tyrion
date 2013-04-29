@@ -17,8 +17,12 @@ class Home extends CI_Controller {
     }
     
     public function index(){
+        $data = array(
+            'active' => 'y',
+        );
+        
         $this->load->view('html_config_common');
-        $this->load->view('header');
+        $this->load->view('header',$data);
         $this->load->view('body');
         $this->load->view('footer');
     }
