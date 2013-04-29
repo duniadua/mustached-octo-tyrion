@@ -16,10 +16,14 @@ class Promo extends CI_Controller {
     public function Promo() {
         parent::__construct();
     }
-    
-    public function index(){
+
+    public function index() {
+        $data = array(
+            'active' => 'y',
+        );
+
         $this->load->view('html_config_common');
-        $this->load->view('header');
+        $this->load->view('header',$data);
         $this->load->view('promo');
         $this->load->view('footer');
     }
