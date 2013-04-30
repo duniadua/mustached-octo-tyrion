@@ -6,7 +6,7 @@
  */
 ?>
 <div class="container">
-    <div class="<?php $class?>">
+    <div class="<?php echo $class?>">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <strong><?php echo $type?></strong> <?php echo $mssg; ?>.
     </div>
