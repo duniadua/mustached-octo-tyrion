@@ -18,7 +18,7 @@ class teaser_model extends CI_Model {
             'duration' => $this->input->post('duration'),
             'direction' => $this->input->post('direction'),
             'active' => $this->input->post('active'),
-            'filename' => $this->input->post('userfile'),
+            'filename' => $_FILES["userfile"]["name"],
             'create_dt' => date('Y-m-d H:i:s'),
             'ip_address' => $this->input->ip_address(),
         );
