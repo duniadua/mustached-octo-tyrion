@@ -15,6 +15,7 @@ class Teaser extends CI_Controller {
     //put your code here
     public function Teaser() {
         parent::__construct();
+        $this->load->model('teaser_model','tease');
     }
 
     public function index() {
@@ -48,9 +49,12 @@ class Teaser extends CI_Controller {
         else:
             $data = array(
                 'type' => 'Uploaded',
+                'class' => 'alert alert-success',
                 'mssg' => 'File Uploaded',
             );
-            
+        
+            $this->tease->add();
+        
             $this->load->view('html_config_common');
             $this->load->view('header_cp');
             $this->load->view('success', $data);
