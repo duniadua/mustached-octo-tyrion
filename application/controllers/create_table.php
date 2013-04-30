@@ -37,6 +37,11 @@ class create_table extends CI_Controller {
                 'constraint' => '100',
                 'null' => TRUE,
             ),
+            'filename' => array(
+                'type' => 'VARCHAR',
+                'constraint' => '100',
+                'null' => TRUE,
+            ),
             'active' => array(
                 'type' => 'INT',
                 'constraint' => 9,
