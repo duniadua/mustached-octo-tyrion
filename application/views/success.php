@@ -6,7 +6,7 @@
  */
 ?>
 <div class="container">
-    <div class="alert alert-success">
+    <div class="<?php $class?>">
         <button type="button" class="close" data-dismiss="alert">&times;</button>
         <strong><?php echo $type?></strong> <?php echo $mssg; ?>.
     </div>
