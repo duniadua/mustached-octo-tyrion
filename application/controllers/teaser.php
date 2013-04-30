@@ -15,7 +15,7 @@ class Teaser extends CI_Controller {
     //put your code here
     public function Teaser() {
         parent::__construct();
-        $this->load->model('teaser_model','tease');
+        $this->load->model('teaser_model', 'tease');
     }
 
     public function index() {
@@ -35,9 +35,11 @@ class Teaser extends CI_Controller {
             'allowed_types' => 'gif|jpg|png',
             'max_size' => 700,
             'remove_spaces' => TRUE,
+            'overwrite' => TRUE,
         );
 
         $this->upload->initialize($config);
+        $this->upload->display_errors("<div class='alert'>", '</div>');
 
         if (!$this->upload->do_upload()):
             $data = array('error' => $this->upload->display_errors());
@@ -52,9 +54,10 @@ class Teaser extends CI_Controller {
                 'class' => 'alert alert-success',
                 'mssg' => 'File Uploaded',
             );
-        
+
+            
             $this->tease->add();
-        
+
             $this->load->view('html_config_common');
             $this->load->view('header_cp');
             $this->load->view('success', $data);
