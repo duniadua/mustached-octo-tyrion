@@ -7,13 +7,11 @@
 <div class="container">
     <div class="row-fluid">
         <div class="span3">
-            <div class="side-menu">
                 <ul class="nav nav-tabs nav-stacked">
-                    <li class="active"><a href="#">K-LINK PROMOTION</a></li>
-                    <li><a href="#">Mid Month Promo</a></li>
-                    <li><a href="#">Anniversary Promo</a></li>
+                    <li class="active"><a href="#"><strong>K-LINK PROMOTION</strong></a></li>
+                    <li><a href="#"><i class="icon-chevron-right"></i>  Mid Month Promo</a></li>
+                    <li><a href="#"><i class="icon-chevron-right"></i>  Anniversary Promo</a></li>
                 </ul>
-            </div>
         </div>
         <div class="span8">
             <div class="picture_frame">
