@@ -15,9 +15,7 @@ class Control_panel extends CI_Controller{
     public function index(){
         $this->load->view('html_config_common');
         $this->load->view('header_cp');
-        $this->load->view('');
+        $this->load->view('home_cp');
         $this->load->view('footer_cp');
     }
 }
-
-?>
