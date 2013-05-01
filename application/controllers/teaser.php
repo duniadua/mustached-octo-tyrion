@@ -19,8 +19,11 @@ class Teaser extends CI_Controller {
     }
 
     public function index() {
+        $dirpath = FCPATH.'/images/portfolio/';
+        
         $data = array(
-            'error' => '',
+            'error' => '',            
+            'teaser' => $this->tease->get_all(),
         );
 
         $this->load->view('html_config_common');
@@ -64,6 +67,11 @@ class Teaser extends CI_Controller {
             $this->load->view('footer_cp');
         endif;
     }
+    
+    public function delete($id){        
+        $this->tease->remove($id);
+        
+        redirect('teaser');        
+    }
 
 }
-
