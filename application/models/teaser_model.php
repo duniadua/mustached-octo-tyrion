@@ -25,6 +25,16 @@ class teaser_model extends CI_Model {
 
         $this->db->insert('teaser', $data);
     }
+    
+    public function get_all(){
+        $query = $this->db->get('teaser');
+        
+        if($query->num_rows() > 0):
+            return $query;
+        else:
+            return NULL;
+        endif;
+    }
 
 }
 
