@@ -35,6 +35,14 @@ class teaser_model extends CI_Model {
             return NULL;
         endif;
     }
+    
+    public function remove($id){
+        $data = array(
+                    'teaser_id' => $id,
+		);
+
+        $this->db->delete('teaser',$data);
+    }
 
 }
 
