@@ -21,5 +21,5 @@ echo link_tag('bootstrap/css/bootstrap.min.css')."\n";
 //echo link_tag('bootstrap/css/custom.css') . "\n";
 echo link_tag('web_font/styles.css') . "\n";
 ?>
-<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+<script src="scripts/jquery-1.7.1.min.js"></script>
 <script src="bootstrap/js/bootstrap.js"></script>
