@@ -18,6 +18,7 @@ class news extends CI_Controller {
 
     public function add(){
          $ok = "<span class='label label-success'>Success</span>";
+         $data['news'] = $this->news_model->getAll();
 
         if($this->input->post('submit')):
             $this->session->set_flashdata('mssg_ok', $ok);
