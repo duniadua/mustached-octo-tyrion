@@ -6,5 +6,5 @@
  */
 ?>
 <div class="footer">
-    <p>K-Link Member</p>
+    <p>K-Link Member <small>Admin Panel <?php echo 'created '.date('Y')?></small></p>
 </div>
