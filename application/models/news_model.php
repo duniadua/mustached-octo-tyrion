@@ -30,11 +30,11 @@ class news_model extends CI_Model {
                     'news_id' => $id,
 		);
 
-        $this->db->delete('syariah',$data);
+        $this->db->delete('news',$data);
     }
 
     public function getAll(){
-        $query = $this->db->get('syariah');
+        $query = $this->db->get('news');
 
          if($query->num_rows()>0):
              return $query;
