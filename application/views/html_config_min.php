@@ -18,7 +18,7 @@ $meta = array(
 echo meta($meta);
 
 echo link_tag('bootstrap/css/bootstrap.min.css')."\n";
-//echo link_tag('bootstrap/css/custom.css') . "\n";
+echo link_tag('bootstrap/css/custom.css') . "\n";
 echo link_tag('web_font/styles.css') . "\n";
 ?>
 <script src="<?php echo base_url()?>scripts/jquery-1.7.1.min.js"></script>
