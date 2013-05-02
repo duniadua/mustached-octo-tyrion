@@ -18,11 +18,11 @@ class news_model extends CI_Model {
                 'title'=> $this->input->post('title'),
                 'detail'=> $this->input->post('detail'),
                 'ip_address'=> $this->input->ip_address(),
-                'datetime' => date('Y-m-d H:i:s'),
+                'create_dt' => date('Y-m-d H:i:s'),
                 'user'=> 'USER',
         );
 
-        $this->db->insert('syariah',$data);
+        $this->db->insert('news',$data);
     }
 
     public function remove($id){
