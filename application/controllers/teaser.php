@@ -42,9 +42,10 @@ class Teaser extends CI_Controller {
         );
 
         $this->upload->initialize($config);
-        $this->upload->display_errors("<div class='alert'>", '</div>');
+        
 
         if (!$this->upload->do_upload()):
+            $this->upload->display_errors("<div class='alert'>", '</div>');
             $data = array('error' => $this->upload->display_errors());
 
             $this->load->view('html_config_common');
