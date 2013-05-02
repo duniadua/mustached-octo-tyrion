@@ -19,7 +19,7 @@ class Auth extends CI_Controller{
 	function index(){                
                 $data['mssg'] = $this->session->flashdata('mssg_fail') ;
 
-		$this->load->view('html_bootstrap_config');
+		$this->load->view('html_config_min');
 		$this->load->view('login',$data);
 	}
 
@@ -47,7 +47,7 @@ class Auth extends CI_Controller{
 			);
 
 			$this->session->set_userdata($newdata);			
-			redirect('controlpanel');
+			redirect('control_panel');
 
 		else:
                         $this->session->set_flashdata('mssg_fail', $ok);
@@ -57,7 +57,7 @@ class Auth extends CI_Controller{
 
 	function deny(){
 		$this->load->view('html_config_min');
-		$this->load->view('blackbox/authorize_deny');
+		$this->load->view('authorize_deny');
 	}
 
 	function logout(){
