@@ -26,7 +26,7 @@ class Teaser extends CI_Controller {
             'teaser' => $this->tease->get_all(),
         );
 
-        $this->load->view('html_config_common');
+        $this->load->view('html_config_min');
         $this->load->view('header_cp');
         $this->load->view('upload_teaser', $data);
         $this->load->view('footer_cp');
@@ -48,7 +48,7 @@ class Teaser extends CI_Controller {
             $this->upload->display_errors("<div class='alert'>", '</div>');
             $data = array('error' => $this->upload->display_errors());
 
-            $this->load->view('html_config_common');
+            $this->load->view('html_config_min');
             $this->load->view('header_cp');
             $this->load->view('upload_teaser', $data);
             $this->load->view('footer_cp');
