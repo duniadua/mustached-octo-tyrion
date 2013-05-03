@@ -18,9 +18,8 @@
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown"> News <b class="caret"></b></a>
                 <ul class="dropdown-menu">
-                    <li><a href="<?php echo site_url($uri = 'news/add'); ?>">Add News</a></li>
-                    <li><a href="<?php echo site_url($uri = 'news/list_news'); ?>">View News</a></li>
-                    <li><a href="<?php echo site_url($uri = 'teaser'); ?>">Upload Teaser</a></li>
+                    <li><a href="<?php echo site_url($uri = 'news/add'); ?>">News</a></li>                    
+                    <li><a href="<?php echo site_url($uri = 'teaser'); ?>">Teaser</a></li>
                     <li class="divider"></li>
                 </ul>
             </li>
