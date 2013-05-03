@@ -13,7 +13,7 @@
 class migrate extends CI_Controller {
 
 //put your code here
-    public function index($ver) {
+    public function ver($ver) {
         $this->load->library('migration');
 
         if (!$this->migration->version($ver)):
