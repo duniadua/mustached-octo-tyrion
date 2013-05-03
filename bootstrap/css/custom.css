@@ -11,14 +11,15 @@ root {
 }
 
 .footer{
-    padding: 35px 0px 0px 10px;
+    padding: 35px 0px 0px 20px;
     /*background-color: #8B9900;*/
-    background-color: #535D5F;
+    /*background-color: #535D5F;*/
+    background-color: #7D8667;
     color: #ffffff;
 }
 .line{
     height: 5px;
-    background-color:#8B9900;
+    background-color:#BACE2E;
 }
 .skyline{
     padding-bottom: 20px;
@@ -32,7 +33,9 @@ root {
 .underline{
     text-decoration: underline;
 }
-.green{
-    color:#8B9900;
+.cssmenus{
+    background-color:#8B9900;
+    padding: 20px 0px 0px 8px;
+    height: 50px;
 }
 
