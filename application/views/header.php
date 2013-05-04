@@ -3,19 +3,13 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-if($active =='y'):
-    $active = "class='active'";
-else:
-    $active = " ";
-endif;
-
 
 ?>
 <div class="container">
     <div class="line"></div>
     <div class="row-fluid">
             <ul class="nav nav-pills cssmenus">
-                <li <?php echo $active; ?>>
+                <li>
                 <a href="<?php echo site_url('/home')?>"> Home</a>
             </li>
             <li <?php // echo $active; ?>><a href="<?php echo site_url('/promo')?>"> Promo</a></li>
